@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: rgb(212, 208, 206);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color:rgb(25, 25, 61);
+    color: whitesmoke;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+h2{
+    margin: 5px;
+    background-color: rgb(133, 216, 255);
+    padding: 15px;
+    font-style: italic;
+}
+
+
+span{
+    color: whitesmoke;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: maroon;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: -30px;
+}
+
+.grid{
+    color: rgb(25, 25, 61);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.makima{
+    background-image: url(Images/makima_by_merueki_de4m2q9-350t.jpg);
+    background-size: cover;
+}
