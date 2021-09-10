@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    min-width: 200px;
     background-color: rgb(212, 208, 206);
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
