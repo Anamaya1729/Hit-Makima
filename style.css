@@ -39,8 +39,10 @@ span{
 
 .grid{
     color: rgb(25, 25, 61);
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+    grid-gap: 0px;
     justify-content: center;
     align-content: center;
     width: 618px;
@@ -52,9 +54,10 @@ span{
     background-size: cover;
 }
 
-@media screen and (max-width: 992px) {
-    .square{
-        width: 120px;
-        height: 100px;
-    }
+.square:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(9/16 * 100%);
 }
