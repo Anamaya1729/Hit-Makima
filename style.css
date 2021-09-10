@@ -53,11 +53,3 @@ span{
     background-image: url(Images/makima_by_merueki_de4m2q9-350t.jpg);
     background-size: cover;
 }
-
-.square:before {
-    content: "";
-    display: block;
-    height: 0;
-    width: 0;
-    padding-bottom: calc(9/16 * 100%);
-}
