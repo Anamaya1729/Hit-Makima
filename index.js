@@ -29,7 +29,7 @@ squares.forEach(square => {
 
 function movemakima()
 {
-    timerId = setInterval(randomSquare,800)
+    timerId = setInterval(randomSquare,1000)
 }
 
 movemakima()
