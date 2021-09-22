@@ -1,5 +1,8 @@
 body{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(212, 208, 206);
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,31 +26,37 @@ span{
     color: whitesmoke;
 }
 
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(25, 25, 61);
+    width: 600px;
+    height: 600px;
+    margin-bottom: 45px;
+}
+
 .square{
-    width: 150px;
-    height: 150px;
+    width: 150%;
+    height: 35%;
     border-style: solid;
     border-color: maroon;
 }
 
-.container{
-    display: grid;
-    grid-gap:0;
-    justify-content: center;
-    align-content: center;
+.grid > div{
+    flex: 1 1 190px;
 }
 
-.grid{
-    color: rgb(25, 25, 61);
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
-    grid-gap: 0px;
-    justify-content: center;
-    align-content: center;
-    width: 618px;
-    height: 618px;
-}
+
 
 .makima{
     background-image: url(Images/makima_by_merueki_de4m2q9-350t.jpg);
